@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pmd
+Bundle-SymbolicName: org.sonar.ide.eclipse.pmd;singleton:=true
+Bundle-Version: 0.12.1
+Bundle-Activator: org.sonar.ide.eclipse.pmd.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.sonar.ide.eclipse.configurator,
+ net.sourceforge.pmd.eclipse.plugin,
+ org.maven.ide.eclipse,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

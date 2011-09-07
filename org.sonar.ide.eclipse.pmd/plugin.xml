@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.sonar.ide.eclipse.configurator">
+      <org.sonar.ide.eclipse.configurator
+            class="org.sonar.ide.eclipse.checkstyle.pmd.PmdConfigurator"
+            plugin_name="pmd">
+      </org.sonar.ide.eclipse.configurator>
+   </extension>
+
+</plugin>

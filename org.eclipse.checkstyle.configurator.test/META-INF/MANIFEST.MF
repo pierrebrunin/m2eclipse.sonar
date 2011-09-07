@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: org.eclipse.checkstyle.configurator.test
+Bundle-Version: 0.12.1
+Fragment-Host: org.eclipse.checkstyle.configurator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit4

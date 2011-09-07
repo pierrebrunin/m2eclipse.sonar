@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Configuration
+Bundle-SymbolicName: org.eclipse.checkstyle.configurator
+Bundle-Version: 0.12.1
+Bundle-Activator: org.eclipse.checkstyle.configurator.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.sf.eclipsecs.core,
+ org.eclipse.core.resources,
+ org.maven.ide.eclipse,
+ org.maven.ide.eclipse.maven_embedder
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.eclipse.checkstyle.configurator,
+ org.eclipse.checkstyle.configurator.api

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.maven.ide.eclipse.checkstyle-feature"
+      label="%feature.label"
+      version="0.12.1"
+      provider-name="%feature.provider_name">
+
+   <description url="%description.url">
+      %description.text
+   </description>
+
+   <copyright>
+      %copyright.text
+   </copyright>
+
+   <license url="license.html">
+      %license.text
+   </license>
+
+   <requires>
+      <import plugin="net.sf.eclipsecs.checkstyle"/>
+   </requires>
+
+   <plugin
+         id="org.maven.ide.eclipse.checkstyle"
+         download-size="0"
+         install-size="0"
+         version="0.12.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.checkstyle"
+         download-size="0"
+         install-size="0"
+         version="0.12.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.sonar.ide.eclipse.configurator"
+         download-size="0"
+         install-size="0"
+         version="0.12.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.checkstyle.configurator"
+         download-size="0"
+         install-size="0"
+         version="0.12.1"
+         unpack="false"/>
+
+</feature>

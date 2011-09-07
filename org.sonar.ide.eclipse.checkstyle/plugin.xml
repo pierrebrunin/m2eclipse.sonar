@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.sonar.ide.eclipse.configurator">
+      <org.sonar.ide.eclipse.configurator
+            plugin_name="checkstyle"
+            class="org.sonar.ide.eclipse.checkstyle.impl.SonarCheckstyleProjectConfigurator">
+      </org.sonar.ide.eclipse.configurator>
+   </extension>
+
+</plugin>

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: eclipse-cs m2eclipse configurator
+Bundle-SymbolicName: org.maven.ide.eclipse.checkstyle;singleton:=true
+Bundle-Version: 0.12.1
+Bundle-Vendor: http://eclipse-cs.sf.net/
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ net.sf.eclipsecs.core,
+ org.maven.ide.eclipse,
+ org.maven.ide.eclipse.jdt,
+ org.maven.ide.eclipse.maven_embedder,
+ org.eclipse.ui.workbench,
+ org.eclipse.checkstyle.configurator
+Import-Package: org.eclipse.ui.console

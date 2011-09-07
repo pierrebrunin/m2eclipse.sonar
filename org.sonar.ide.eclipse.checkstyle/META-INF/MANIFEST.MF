@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Checkstyle
+Bundle-SymbolicName: org.sonar.ide.eclipse.checkstyle;singleton:=true
+Bundle-Version: 0.12.1
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.sonar.ide.eclipse.configurator,
+ org.eclipse.checkstyle.configurator,
+ org.eclipse.core.resources,
+ net.sf.eclipsecs.core
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.maven.project,
+ org.maven.ide.eclipse.project,
+ org.maven.ide.eclipse.project.configurator
